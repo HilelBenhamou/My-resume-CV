@@ -1,0 +1,104 @@
+*
+{
+    font-family:Josefin Sans, sans-serif;
+    background-image: url(image/fonds-ecran-hd_05.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+        
+}
+
+.presentation
+{
+    text-align: center;
+}
+
+img
+{   
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: cover;
+    width: 150px;
+    box-shadow: 3px 3px 5px black;
+}
+
+img:hover
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: cover;
+    width: 175px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.sections
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section1
+{
+    
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: auto;
+    
+}
+
+.section2
+{
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.section3
+{
+    
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+
+@media all and (max-width: 1020px)
+{
+    .sections
+    {
+        display: flex;
+        flex-direction:column;
+        
+    }
+    
+    .section1
+    {
+        
+        width: 500px;
+        margin: 20px auto;
+    }
+    .section2
+    {
+        width: 500px;
+        margin: 20px auto;
+    }
+    .section3
+    {
+        
+        width: 500px;
+        margin: 20px auto;
+    }
+}
