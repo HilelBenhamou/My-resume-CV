@@ -74,6 +74,20 @@ img:hover
     overflow: auto;
 }
 
+.contact
+{
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: auto;
+
+    display: inline-block;
+    text-align: right;
+}
+
 
 @media all and (max-width: 1020px)
 {
@@ -98,6 +112,12 @@ img:hover
     .section3
     {
         
+        width: 500px;
+        margin: 20px auto;
+    }
+
+    .contact
+    {
         width: 500px;
         margin: 20px auto;
     }
